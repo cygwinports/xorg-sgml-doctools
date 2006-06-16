@@ -1,0 +1,48 @@
+xorg-sgml-doctools
+------------------------------------------
+Xorg SGML documentation entities
+
+Build requirements:
+  cygwin-1.5.19-4
+  cygport-0.1.6-1
+  gawk-3.1.5-2
+  make-3.80-1
+  sed-4.1.4-1
+
+Canonical website:
+  http://xorg.freedesktop.org/
+
+Canonical download:
+  http://xorg.freedesktop.org/releases/individual/
+
+-------------------------------------------
+
+Build instructions:
+  unpack xorg-sgml-doctools-1.0.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./xorg-sgml-doctools-1.0.1-X.cygport all
+
+This will create:
+  /usr/src/xorg-sgml-doctools-1.0.1-X-src.tar.bz2
+  /usr/src/xorg-sgml-doctools-1.0.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/share/X11/sgml/defs.ent
+  /usr/share/doc/Cygwin/xorg-sgml-doctools-1.0.1.README
+  /usr/share/doc/xorg-sgml-doctools-1.0.1/ChangeLog
+
+------------------
+
+Port Notes:
+
+----- version 1.0.1-1 -----
+Initial Cygwin release of modular X11R7.0.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
