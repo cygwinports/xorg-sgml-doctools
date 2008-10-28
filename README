@@ -1,6 +1,6 @@
 xorg-sgml-doctools
 ------------------------------------------
-Xorg SGML documentation entities
+X.Org SGML documentation entities
 
 Build requirements:
   cygwin-1.5.24-2
