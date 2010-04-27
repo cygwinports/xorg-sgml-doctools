@@ -1,3 +1,4 @@
 category: X11 Doc
+requires:
 sdesc: "X.Org SGML documentation entities"
 ldesc: "X.Org SGML documentation entities"
